@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-image: url('jaguar-xe.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0,0,0,0.6);
+    padding: 25px;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 600px;
+    color: white;
+    margin: 55px;
+}
+p{
+  font-size: 14px;
+}
+
+ a:link{text-decoration:none }
+
+button{
+  width: 130px;
+  background-color:#DB3030;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 3px 3px 3px 3px;
+  border: 1px solid #DB3030;
+}
+.button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)
+}
